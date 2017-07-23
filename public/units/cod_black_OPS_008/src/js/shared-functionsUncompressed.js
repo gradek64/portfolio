@@ -946,8 +946,8 @@
                          // this next line is iphone streaming - need to have mp4 on maxcdn for this
                          //{file: "http://flash2.adspdbl.com/play/_definst_/mp4:vod/avidvideo.avidm/"+campaign+"/"+video+"/playlist.m3u8"},*/
 
-                        {file: "http://files.adspdbl.com/cod_black_OPS_008/assets/" + video.replace('m3u8', 'mp4')},
-                        {file: "http://files.adspdbl.com/cod_black_OPS_008/assets/" + video.replace('m3u8', 'webm')}
+                        {file: "assets/" + video.replace('m3u8', 'mp4')},
+                        {file: "assets/" + video.replace('m3u8', 'webm')}
 
                         //{file: "http://" + hlsUri + "/" + campaign + "/assets/" + video}
                     ]

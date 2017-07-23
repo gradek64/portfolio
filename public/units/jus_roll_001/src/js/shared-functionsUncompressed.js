@@ -580,10 +580,10 @@
                 playlist: [{
                     image:videoPosterImage,
                     sources:[
-                        {file: 'http://files.adspdbl.com/jus_roll_001/assets/' + video.replace("mp4","webm") },
+                        {file: 'assets/' + video.replace("mp4","webm") },
                         // this next line is iphone streaming - need to have mp4 on maxcdn for this
                         //{file: "http://flash2.adspdbl.com/play/_definst_/mp4:vod/avidvideo.avidm/"+campaign+"/"+video+"/playlist.m3u8"},
-                        {file: "http://files.adspdbl.com/jus_roll_001/assets/"+video}
+                        {file: "assets/"+video}
                     ]
                 }],
                 width: "100%",
