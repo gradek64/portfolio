@@ -23,10 +23,14 @@ app.use(bodyParser.json());
 app.use(bodyParser.urlencoded({ extended: false }));
 app.use(cookieParser());
 app.use(express.static(path.join(__dirname, 'public')));
+//addtional path for vendors 
+app.use(express.static(path.join(__dirname, 'vendors')));
 
 
 //specify custom static direcotry for pages (otherwise epxress will default it to 'domain/views')
 app.set('views/page', path.join(__dirname,'views/page')); 
+
+//set static path views for angular setup AngularComponents
 
 
 app.use('/', routes);
