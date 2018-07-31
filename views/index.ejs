@@ -84,7 +84,18 @@
   -webkit-box-shadow: 0 13px 6px -6px rgba(0,0,0,0.6);
      -moz-box-shadow: 0 13px 6px -6px rgba(0,0,0,0.6);
           box-shadow: 0 13px 6px -6px rgba(0,0,0,0.6);
-}
+  } 
+
+  .explore-button {
+    padding: 25px;
+    /* border: 1px solid #18bc9c; */
+    /* border-radius: 10px; */
+    /* color: #18bc9c; */
+    width: 250px;
+    cursor: pointer;
+    margin-top: 60px;
+    background: url(images/porfolio_bg.jpg) top left repeat #ccc;
+  }
 
   </style>
   </head>
@@ -112,7 +123,7 @@
   <!-- <div style="position: absolute;" class="content "></div> -->
 
 
-    <div class="row ne-edge-shadow" style="background-color: #2c3e50;padding: 10%">
+    <div class="row ne-edge-shadow" style="background-color: #2c3e50;padding: 3%">
       
       <div class="col-md-6">
         
@@ -127,7 +138,7 @@
        </blockquote>
 
 
-        <p class="align-middle" ng-click="scrollToPorfolio('portfolio')" style="padding: 25px;border:1px solid #18bc9c;border-radius: 10px;color:#18bc9c;width:250px;cursor: pointer;">explore my portfolio below</p>
+        <p class="align-middle explore-button" ng-click="scrollToPorfolio('portfolio')" >explore my portfolio below</p>
             
 
       </div>
